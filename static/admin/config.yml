@@ -13,9 +13,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "speaker"
+  - name: "speakers"
     label: "Speaker"
-    folder: "src/speaker"
+    folder: "src/pages/speakers"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
