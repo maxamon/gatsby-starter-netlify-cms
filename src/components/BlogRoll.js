@@ -5,7 +5,8 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
-    const { data } = this.props
+    const { data } = this.props;
+    console.log(data)
     const { edges: posts } = data.allMarkdownRemark
 
     return (
